@@ -1,0 +1,117 @@
+/* CSS for first two hours of Course
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.nav-items{
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    
+}
+
+.nav-items >li{
+    padding: 10px;
+    margin-right:100px
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#logo{   
+    width: 80px;
+}
+
+footer{
+    max-width: auto;
+    margin:0 auto;
+    background-color: #777;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+  
+.Page{
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex:1;
+}*/
+
+
+/*Project React Facts*/
+*{
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: Inter,sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1D1E25;
+    color:#61DAFB;
+}
+.navbar>h1{
+    margin-left: -70px;
+}
+#logo{
+    width: 2em;
+    margin-right: 10%;
+    padding-left: -50px;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.main{
+    background:#23272D;
+    color: white;
+    padding-left: 80px;
+}
+
+.main>h1{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 700;
+}
+
+.main>ul>li{
+    padding-bottom: 40px;
+}
+
+.main>ul>li::marker{
+    font-size: 1.4rem;
+    color:#61DAFB;
+}
+
